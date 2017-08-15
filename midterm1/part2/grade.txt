@@ -1,0 +1,24 @@
+Code assembles, runs, and halts:   5/5
+
+Main program contains a proper call to RNG:   5/5
+
+All registers that are modified by RNG and LCG are restored to their original values on return:   5/5
+
+All registers are properly initialized:   5/5
+
+RNG and LCG use parameters as specified in the above implementation requirements:   5/5
+
+RNG calls LCG N times and stores the results in consecutive memory locations starting from the address passed to RNG in R5:   0/15
+
+LCG correctly implements the above algorithm:   35/35
+
+LCG makes proper calls to DIVIDE and MULT subroutines:   10/10
+
+LCG returns result in R3:  5/5
+
+Code uses as few as possible iterative and conditional constructs:  5/5
+
+Subroutine is well-documented (description of functionality, register table, comments, proper source code formatting, etc.):  5/5 
+
+
+Total:   85

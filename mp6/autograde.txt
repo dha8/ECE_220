@@ -1,0 +1,57 @@
+Compilation Results
+*******************
+gcc -g -Wall -Wextra -Wno-unused -c test.c
+In file included from test.c:3:0:
+maze.h:22:1: error: unknown type name ‘bool’
+ bool walk(char ** maze, int width, int height, int xPos, int yPos);
+ ^
+test.c: In function ‘myCheckMaze’:
+test.c:200:58: warning: unused parameter ‘x’ [-Wunused-parameter]
+ int myCheckMaze(char ** maze, int width, int height, int x, int y, int print)
+                                                          ^
+test.c:200:65: warning: unused parameter ‘y’ [-Wunused-parameter]
+ int myCheckMaze(char ** maze, int width, int height, int x, int y, int print)
+                                                                 ^
+make: *** [test.o] Error 1
+
+cannot compile with gcc
+
+g++ -g -Wall -Wextra -Wno-unused -c test.c
+test.c:200:5: warning: unused parameter ‘x’ [-Wunused-parameter]
+ int myCheckMaze(char ** maze, int width, int height, int x, int y, int print)
+     ^
+test.c:200:5: warning: unused parameter ‘y’ [-Wunused-parameter]
+g++ -g -Wall -Wextra -Wno-unused -c maze.c
+maze.c:143:5: warning: unused parameter ‘maze’ [-Wunused-parameter]
+ int solveMazeBFS(char ** maze, int width, int height, int xPos, int yPos)
+     ^
+maze.c:143:5: warning: unused parameter ‘width’ [-Wunused-parameter]
+maze.c:143:5: warning: unused parameter ‘height’ [-Wunused-parameter]
+maze.c:143:5: warning: unused parameter ‘xPos’ [-Wunused-parameter]
+maze.c:143:5: warning: unused parameter ‘yPos’ [-Wunused-parameter]
+g++ -g -Wall -Wextra -Wno-unused maze.o test.o -o test
+g++ -g -Wall -Wextra -Wno-unused -c main.c
+g++ -g -Wall -Wextra -Wno-unused main.o maze.o -o mp6
+
+Testing findStart
+*****************
+Score: 10/10
+
+Testing printMaze
+*****************
+Score: 0/10
+
+Testing solveMaze
+****************
+Score: 1/50
+
+Testing checkMaze
+*****************
+Score: 20/20
+
+Challenge
+*********
+Score: 7/30
+
+Functionality: 31
+Challenges: 7

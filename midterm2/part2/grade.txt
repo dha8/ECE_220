@@ -1,0 +1,9 @@
+gcc -g -Wall -std=gnu99 -c main.c
+gcc -g -Wall -std=gnu99 -c image.c
+gcc -g -Wall -std=gnu99 main.o image.o -o part2
+
+Test for pixel (x=0, y=0) failed. Expected 0 0 1, got 0 1 0 Test for pixel (x=0, y=6) failed. Expected 0 0 1, got 0 1 0 Test for pixel (x=0, y=7) failed. Expected 0 0 1, got 0 1 0 Test for pixel (x=1, y=0) failed. Expected 0 0 1, got 0 1 0 Test for pixel (x=1, y=7) failed. Expected 0 0 1, got 0 1 0 Test for pixel (x=7, y=0) failed. Expected 0 0 1, got 0 1 0 Test for pixel (x=15, y=7) failed. Expected 0 0 1, got 0 1 0
+Incorrect results for boundary pixels (on border): -7pts
+
+
+Total: 33

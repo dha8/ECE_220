@@ -1,0 +1,19 @@
+init_slicing_tree: 25/25
+is_leaf: 5/5
+is_internal: 5/5
+is_in_subtree: 10/10
+rotate: 5/5
+recut: 5/5
+swap_module: 5/5
+swap_topology: 10/10
+get_expression: 20/20
+
+Functionality: 90/90
+
+Challenge: 0/20
+
+Worked alone: 5/5
+
+Style, comments, etc: 10/10
+
+Total: 105

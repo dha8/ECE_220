@@ -1,0 +1,650 @@
+
+********************************** MP7 **********************************
+Initial slicing tree: Root=0x19270f0, num_nodes=7, num_modules=4
+Initial expression: 32V1V0V
+Initial area: 4.98760e+05
+Perform optimization...
+Module 0 is placed at (192, 0) with height=280 and width=296
+Module 1 is placed at (0, 523) with height=333 and width=188
+Module 2 is placed at (0, 0) with height=523 and width=192
+Module 3 is placed at (192, 280) with height=549 and width=296
+Packing area = 4.17728e+05 (has overlapped? 0 (1:yes, 0:no))
+Draw floorplan to circuit1.png
+********************************** END ***********************************
+
+****************************** VERIFICATION ******************************
+Circuit: 4 golden_modules, slicing tree size = 4 leaves and 3 internals
+(1) Function  'init_slicing_tree': correct!   +25
+(2) Function  'is_leaf'          : correct!   +5
+(3) Function  'is_internal'      : correct!   +5
+(4) Function  'is_in_subtree'    : correct!   +10
+(5) Procedure 'rotate'           : correct!   +5
+(6) Procedure 'recut'            : correct!   +5
+(7) Procedure 'swap_module'      : correct!   +5
+(8) Procedure 'swap_topology'    : correct!   +10
+(9) Procedure 'get_expression'   : correct!   +20
+Challenge bonus on area diff 4.98760e+05 vs 6.54368e+05: +0
+Your final score for this MP     : 90
+**************************** END VERIFICATION ****************************
+
+
+********************************** MP7 **********************************
+Initial slicing tree: Root=0x12560f0, num_nodes=11, num_modules=6
+Initial expression: 54V3V2V1V0V
+Initial area: 5.77596e+05
+Perform optimization...
+Module 0 is placed at (426, 0) with height=158 and width=329
+Module 1 is placed at (254, 0) with height=303 and width=172
+Module 2 is placed at (0, 0) with height=332 and width=254
+Module 3 is placed at (426, 158) with height=172 and width=696
+Module 4 is placed at (1122, 0) with height=311 and width=212
+Module 5 is placed at (755, 0) with height=144 and width=303
+Packing area = 4.42888e+05 (has overlapped? 0 (1:yes, 0:no))
+Draw floorplan to circuit2.png
+********************************** END ***********************************
+
+****************************** VERIFICATION ******************************
+Circuit: 6 golden_modules, slicing tree size = 6 leaves and 5 internals
+(1) Function  'init_slicing_tree': correct!   +25
+(2) Function  'is_leaf'          : correct!   +5
+(3) Function  'is_internal'      : correct!   +5
+(4) Function  'is_in_subtree'    : correct!   +10
+(5) Procedure 'rotate'           : correct!   +5
+(6) Procedure 'recut'            : correct!   +5
+(7) Procedure 'swap_module'      : correct!   +5
+(8) Procedure 'swap_topology'    : correct!   +10
+(9) Procedure 'get_expression'   : correct!   +20
+Challenge bonus on area diff 5.77596e+05 vs 7.84458e+05: +0
+Your final score for this MP     : 90
+**************************** END VERIFICATION ****************************
+
+
+********************************** MP7 **********************************
+Initial slicing tree: Root=0x24610f0, num_nodes=13, num_modules=7
+Initial expression: 65V4V3V2V1V0V
+Initial area: 1.95017e+06
+Perform optimization...
+Module 0 is placed at (1141, 0) with height=979 and width=382
+Module 1 is placed at (0, 114) with height=498 and width=805
+Module 2 is placed at (345, 612) with height=368 and width=780
+Module 3 is placed at (0, 612) with height=364 and width=345
+Module 4 is placed at (0, 0) with height=114 and width=430
+Module 5 is placed at (805, 267) with height=310 and width=336
+Module 6 is placed at (805, 0) with height=267 and width=236
+Packing area = 1.49254e+06 (has overlapped? 0 (1:yes, 0:no))
+Draw floorplan to circuit3.png
+********************************** END ***********************************
+
+****************************** VERIFICATION ******************************
+Circuit: 7 golden_modules, slicing tree size = 7 leaves and 6 internals
+(1) Function  'init_slicing_tree': correct!   +25
+(2) Function  'is_leaf'          : correct!   +5
+(3) Function  'is_internal'      : correct!   +5
+(4) Function  'is_in_subtree'    : correct!   +10
+(5) Procedure 'rotate'           : correct!   +5
+(6) Procedure 'recut'            : correct!   +5
+(7) Procedure 'swap_module'      : correct!   +5
+(8) Procedure 'swap_topology'    : correct!   +10
+(9) Procedure 'get_expression'   : correct!   +20
+Challenge bonus on area diff 1.95017e+06 vs 2.13343e+06: +0
+Your final score for this MP     : 90
+**************************** END VERIFICATION ****************************
+
+
+********************************** MP7 **********************************
+Initial slicing tree: Root=0xfee0f0, num_nodes=177, num_modules=89
+Initial expression: 8887V86V85V84V83V82V81V80V79V78V77V76V75V74V73V72V71V70V69V68V67V66V65V64V63V62V61V60V59V58V57V56V55V54V53V52V51V50V49V48V47V46V45V44V43V42V41V40V39V38V37V36V35V34V33V32V31V30V29V28V27V26V25V24V23V22V21V20V19V18V17V16V15V14V13V12V11V10V9V8V7V6V5V4V3V2V1V0V
+Initial area: 2.11293e+06
+Perform optimization...
+Module 0 is placed at (2752, 0) with height=14 and width=10
+Module 1 is placed at (2742, 0) with height=14 and width=10
+Module 2 is placed at (2732, 0) with height=14 and width=10
+Module 3 is placed at (2722, 0) with height=14 and width=10
+Module 4 is placed at (2712, 0) with height=14 and width=10
+Module 5 is placed at (2702, 0) with height=14 and width=10
+Module 6 is placed at (2692, 0) with height=14 and width=10
+Module 7 is placed at (2682, 0) with height=14 and width=10
+Module 8 is placed at (2672, 0) with height=14 and width=10
+Module 9 is placed at (2662, 0) with height=14 and width=10
+Module 10 is placed at (2652, 0) with height=14 and width=10
+Module 11 is placed at (2642, 0) with height=14 and width=10
+Module 12 is placed at (2632, 0) with height=14 and width=10
+Module 13 is placed at (2622, 0) with height=14 and width=10
+Module 14 is placed at (2612, 0) with height=14 and width=10
+Module 15 is placed at (2602, 0) with height=14 and width=10
+Module 16 is placed at (2592, 0) with height=14 and width=10
+Module 17 is placed at (2582, 0) with height=14 and width=10
+Module 18 is placed at (2572, 0) with height=14 and width=10
+Module 19 is placed at (2562, 0) with height=14 and width=10
+Module 20 is placed at (2552, 0) with height=14 and width=10
+Module 21 is placed at (2542, 0) with height=14 and width=10
+Module 22 is placed at (2532, 0) with height=14 and width=10
+Module 23 is placed at (2522, 0) with height=14 and width=10
+Module 24 is placed at (2512, 0) with height=14 and width=10
+Module 25 is placed at (2502, 0) with height=14 and width=10
+Module 26 is placed at (2492, 0) with height=14 and width=10
+Module 27 is placed at (2482, 0) with height=14 and width=10
+Module 28 is placed at (2472, 0) with height=14 and width=10
+Module 29 is placed at (2462, 0) with height=14 and width=10
+Module 30 is placed at (2452, 0) with height=14 and width=10
+Module 31 is placed at (2442, 0) with height=14 and width=10
+Module 32 is placed at (2432, 0) with height=14 and width=10
+Module 33 is placed at (2422, 0) with height=14 and width=10
+Module 34 is placed at (2412, 0) with height=14 and width=10
+Module 35 is placed at (2402, 0) with height=14 and width=10
+Module 36 is placed at (2392, 0) with height=14 and width=10
+Module 37 is placed at (2382, 0) with height=14 and width=10
+Module 38 is placed at (2372, 0) with height=14 and width=10
+Module 39 is placed at (2362, 0) with height=14 and width=10
+Module 40 is placed at (2352, 0) with height=14 and width=10
+Module 41 is placed at (2345, 0) with height=7 and width=7
+Module 42 is placed at (2338, 0) with height=7 and width=7
+Module 43 is placed at (2301, 0) with height=225 and width=37
+Module 44 is placed at (2283, 0) with height=113 and width=18
+Module 45 is placed at (2252, 0) with height=240 and width=31
+Module 46 is placed at (2218, 0) with height=36 and width=34
+Module 47 is placed at (2189, 0) with height=36 and width=29
+Module 48 is placed at (2136, 0) with height=765 and width=53
+Module 49 is placed at (2083, 0) with height=765 and width=53
+Module 50 is placed at (2012, 0) with height=81 and width=71
+Module 51 is placed at (1983, 0) with height=36 and width=29
+Module 52 is placed at (1949, 0) with height=36 and width=34
+Module 53 is placed at (1915, 0) with height=36 and width=34
+Module 54 is placed at (1838, 0) with height=265 and width=77
+Module 55 is placed at (1761, 0) with height=265 and width=77
+Module 56 is placed at (1684, 0) with height=265 and width=77
+Module 57 is placed at (1647, 0) with height=210 and width=37
+Module 58 is placed at (1610, 0) with height=210 and width=37
+Module 59 is placed at (1592, 0) with height=113 and width=18
+Module 60 is placed at (1555, 0) with height=210 and width=37
+Module 61 is placed at (1533, 0) with height=210 and width=22
+Module 62 is placed at (1479, 0) with height=68 and width=54
+Module 63 is placed at (1445, 0) with height=36 and width=34
+Module 64 is placed at (1391, 0) with height=68 and width=54
+Module 65 is placed at (1146, 0) with height=280 and width=245
+Module 66 is placed at (1124, 0) with height=210 and width=22
+Module 67 is placed at (1087, 0) with height=210 and width=37
+Module 68 is placed at (1050, 0) with height=210 and width=37
+Module 69 is placed at (1013, 0) with height=210 and width=37
+Module 70 is placed at (995, 0) with height=113 and width=18
+Module 71 is placed at (983, 0) with height=210 and width=12
+Module 72 is placed at (971, 0) with height=210 and width=12
+Module 73 is placed at (934, 0) with height=216 and width=37
+Module 74 is placed at (897, 0) with height=216 and width=37
+Module 75 is placed at (860, 0) with height=210 and width=37
+Module 76 is placed at (823, 0) with height=210 and width=37
+Module 77 is placed at (786, 0) with height=210 and width=37
+Module 78 is placed at (749, 0) with height=210 and width=37
+Module 79 is placed at (693, 0) with height=59 and width=56
+Module 80 is placed at (656, 0) with height=225 and width=37
+Module 81 is placed at (619, 0) with height=225 and width=37
+Module 82 is placed at (582, 0) with height=225 and width=37
+Module 83 is placed at (518, 0) with height=266 and width=64
+Module 84 is placed at (148, 0) with height=612 and width=370
+Module 85 is placed at (111, 0) with height=225 and width=37
+Module 86 is placed at (74, 0) with height=210 and width=37
+Module 87 is placed at (37, 0) with height=210 and width=37
+Module 88 is placed at (0, 0) with height=210 and width=37
+Packing area = 2.11293e+06 (has overlapped? 0 (1:yes, 0:no))
+Draw floorplan to circuit4.png
+********************************** END ***********************************
+
+****************************** VERIFICATION ******************************
+Circuit: 89 golden_modules, slicing tree size = 89 leaves and 88 internals
+(1) Function  'init_slicing_tree': correct!   +25
+(2) Function  'is_leaf'          : correct!   +5
+(3) Function  'is_internal'      : correct!   +5
+(4) Function  'is_in_subtree'    : correct!   +10
+(5) Procedure 'rotate'           : correct!   +5
+(6) Procedure 'recut'            : correct!   +5
+(7) Procedure 'swap_module'      : correct!   +5
+(8) Procedure 'swap_topology'    : correct!   +10
+(9) Procedure 'get_expression'   : correct!   +20
+Challenge bonus on area diff 2.11293e+06 vs 2.12686e+06: +0
+Your final score for this MP     : 90
+**************************** END VERIFICATION ****************************
+
+
+********************************** MP7 **********************************
+Initial slicing tree: Root=0x7750f0, num_nodes=837, num_modules=419
+Initial expression: 418417V416V415V414V413V412V411V410V409V408V407V406V405V404V403V402V401V400V399V398V397V396V395V394V393V392V391V390V389V388V387V386V385V384V383V382V381V380V379V378V377V376V375V374V373V372V371V370V369V368V367V366V365V364V363V362V361V360V359V358V357V356V355V354V353V352V351V350V349V348V347V346V345V344V343V342V341V340V339V338V337V336V335V334V333V332V331V330V329V328V327V326V325V324V323V322V321V320V319V318V317V316V315V314V313V312V311V310V309V308V307V306V305V304V303V302V301V300V299V298V297V296V295V294V293V292V291V290V289V288V287V286V285V284V283V282V281V280V279V278V277V276V275V274V273V272V271V270V269V268V267V266V265V264V263V262V261V260V259V258V257V256V255V254V253V252V251V250V249V248V247V246V245V244V243V242V241V240V239V238V237V236V235V234V233V232V231V230V229V228V227V226V225V224V223V222V221V220V219V218V217V216V215V214V213V212V211V210V209V208V207V206V205V204V203V202V201V200V199V198V197V196V195V194V193V192V191V190V189V188V187V186V185V184V183V182V181V180V179V178V177V176V175V174V173V172V171V170V169V168V167V166V165V164V163V162V161V160V159V158V157V156V155V154V153V152V151V150V149V148V147V146V145V144V143V142V141V140V139V138V137V136V135V134V133V132V131V130V129V128V127V126V125V124V123V122V121V120V119V118V117V116V115V114V113V112V111V110V109V108V107V106V105V104V103V102V101V100V99V98V97V96V95V94V93V92V91V90V89V88V87V86V85V84V83V82V81V80V79V78V77V76V75V74V73V72V71V70V69V68V67V66V65V64V63V62V61V60V59V58V57V56V55V54V53V52V51V50V49V48V47V46V45V44V43V42V41V40V39V38V37V36V35V34V33V32V31V30V29V28V27V26V25V24V23V22V21V20V19V18V17V16V15V14V13V12V11V10V9V8V7V6V5V4V3V2V1V0V
+Initial area: 1.01882e+07
+Perform optimization...
+Module 0 is placed at (7803, 0) with height=6 and width=4
+Module 1 is placed at (7799, 0) with height=6 and width=4
+Module 2 is placed at (7795, 0) with height=6 and width=4
+Module 3 is placed at (7789, 0) with height=4 and width=6
+Module 4 is placed at (7779, 0) with height=14 and width=10
+Module 5 is placed at (7769, 0) with height=14 and width=10
+Module 6 is placed at (7759, 0) with height=14 and width=10
+Module 7 is placed at (3532, 0) with height=14 and width=10
+Module 8 is placed at (7705, 0) with height=14 and width=10
+Module 9 is placed at (7695, 0) with height=14 and width=10
+Module 10 is placed at (7685, 0) with height=14 and width=10
+Module 11 is placed at (7675, 0) with height=14 and width=10
+Module 12 is placed at (7665, 0) with height=14 and width=10
+Module 13 is placed at (7655, 0) with height=14 and width=10
+Module 14 is placed at (7645, 0) with height=14 and width=10
+Module 15 is placed at (7635, 0) with height=14 and width=10
+Module 16 is placed at (7625, 0) with height=14 and width=10
+Module 17 is placed at (7615, 0) with height=14 and width=10
+Module 18 is placed at (896, 0) with height=14 and width=10
+Module 19 is placed at (7595, 0) with height=14 and width=10
+Module 20 is placed at (7585, 0) with height=14 and width=10
+Module 21 is placed at (557, 0) with height=14 and width=10
+Module 22 is placed at (7565, 0) with height=14 and width=10
+Module 23 is placed at (7555, 0) with height=14 and width=10
+Module 24 is placed at (7545, 0) with height=14 and width=10
+Module 25 is placed at (7535, 0) with height=14 and width=10
+Module 26 is placed at (7525, 0) with height=14 and width=10
+Module 27 is placed at (7515, 0) with height=14 and width=10
+Module 28 is placed at (7505, 0) with height=14 and width=10
+Module 29 is placed at (7495, 0) with height=14 and width=10
+Module 30 is placed at (7485, 0) with height=14 and width=10
+Module 31 is placed at (7475, 0) with height=14 and width=10
+Module 32 is placed at (7465, 0) with height=14 and width=10
+Module 33 is placed at (7455, 0) with height=14 and width=10
+Module 34 is placed at (7445, 0) with height=14 and width=10
+Module 35 is placed at (7435, 0) with height=14 and width=10
+Module 36 is placed at (7425, 0) with height=14 and width=10
+Module 37 is placed at (7415, 0) with height=14 and width=10
+Module 38 is placed at (0, 949) with height=14 and width=10
+Module 39 is placed at (7405, 0) with height=14 and width=10
+Module 40 is placed at (7395, 0) with height=14 and width=10
+Module 41 is placed at (7385, 0) with height=14 and width=10
+Module 42 is placed at (7375, 0) with height=14 and width=10
+Module 43 is placed at (7365, 0) with height=14 and width=10
+Module 44 is placed at (7355, 0) with height=14 and width=10
+Module 45 is placed at (7345, 0) with height=14 and width=10
+Module 46 is placed at (230, 774) with height=14 and width=10
+Module 47 is placed at (7302, 0) with height=14 and width=10
+Module 48 is placed at (7292, 0) with height=14 and width=10
+Module 49 is placed at (7282, 0) with height=14 and width=10
+Module 50 is placed at (7272, 0) with height=14 and width=10
+Module 51 is placed at (7262, 0) with height=14 and width=10
+Module 52 is placed at (7252, 0) with height=14 and width=10
+Module 53 is placed at (7242, 0) with height=14 and width=10
+Module 54 is placed at (7232, 0) with height=14 and width=10
+Module 55 is placed at (7222, 0) with height=14 and width=10
+Module 56 is placed at (7212, 0) with height=14 and width=10
+Module 57 is placed at (7202, 0) with height=14 and width=10
+Module 58 is placed at (7192, 0) with height=14 and width=10
+Module 59 is placed at (7182, 0) with height=14 and width=10
+Module 60 is placed at (7172, 0) with height=14 and width=10
+Module 61 is placed at (7162, 0) with height=14 and width=10
+Module 62 is placed at (7152, 0) with height=14 and width=10
+Module 63 is placed at (7142, 0) with height=14 and width=10
+Module 64 is placed at (7132, 0) with height=14 and width=10
+Module 65 is placed at (766, 0) with height=14 and width=10
+Module 66 is placed at (7112, 0) with height=14 and width=10
+Module 67 is placed at (7102, 0) with height=14 and width=10
+Module 68 is placed at (7092, 0) with height=14 and width=10
+Module 69 is placed at (7082, 0) with height=14 and width=10
+Module 70 is placed at (6095, 0) with height=14 and width=10
+Module 71 is placed at (7062, 0) with height=14 and width=10
+Module 72 is placed at (7052, 0) with height=14 and width=10
+Module 73 is placed at (7042, 0) with height=14 and width=10
+Module 74 is placed at (7032, 0) with height=14 and width=10
+Module 75 is placed at (7022, 0) with height=14 and width=10
+Module 76 is placed at (0, 935) with height=14 and width=10
+Module 77 is placed at (7012, 0) with height=14 and width=10
+Module 78 is placed at (6998, 0) with height=10 and width=14
+Module 79 is placed at (6988, 0) with height=14 and width=10
+Module 80 is placed at (6978, 0) with height=14 and width=10
+Module 81 is placed at (6968, 0) with height=14 and width=10
+Module 82 is placed at (6958, 0) with height=14 and width=10
+Module 83 is placed at (6948, 0) with height=14 and width=10
+Module 84 is placed at (6938, 0) with height=14 and width=10
+Module 85 is placed at (3700, 0) with height=14 and width=10
+Module 86 is placed at (6918, 0) with height=14 and width=10
+Module 87 is placed at (6908, 0) with height=14 and width=10
+Module 88 is placed at (6898, 0) with height=14 and width=10
+Module 89 is placed at (6888, 0) with height=14 and width=10
+Module 90 is placed at (6878, 0) with height=14 and width=10
+Module 91 is placed at (6868, 0) with height=14 and width=10
+Module 92 is placed at (6858, 0) with height=14 and width=10
+Module 93 is placed at (6848, 0) with height=14 and width=10
+Module 94 is placed at (6838, 0) with height=14 and width=10
+Module 95 is placed at (6828, 0) with height=14 and width=10
+Module 96 is placed at (6818, 0) with height=14 and width=10
+Module 97 is placed at (6808, 0) with height=14 and width=10
+Module 98 is placed at (6798, 0) with height=14 and width=10
+Module 99 is placed at (6788, 0) with height=14 and width=10
+Module 100 is placed at (6778, 0) with height=14 and width=10
+Module 101 is placed at (6768, 0) with height=14 and width=10
+Module 102 is placed at (6758, 0) with height=14 and width=10
+Module 103 is placed at (6568, 0) with height=14 and width=10
+Module 104 is placed at (6738, 0) with height=14 and width=10
+Module 105 is placed at (6728, 0) with height=14 and width=10
+Module 106 is placed at (6718, 0) with height=14 and width=10
+Module 107 is placed at (6708, 0) with height=14 and width=10
+Module 108 is placed at (6698, 0) with height=14 and width=10
+Module 109 is placed at (6688, 0) with height=14 and width=10
+Module 110 is placed at (6678, 0) with height=14 and width=10
+Module 111 is placed at (6668, 0) with height=14 and width=10
+Module 112 is placed at (6658, 0) with height=14 and width=10
+Module 113 is placed at (6648, 0) with height=14 and width=10
+Module 114 is placed at (6638, 0) with height=14 and width=10
+Module 115 is placed at (6628, 0) with height=14 and width=10
+Module 116 is placed at (6618, 0) with height=14 and width=10
+Module 117 is placed at (6608, 0) with height=14 and width=10
+Module 118 is placed at (6598, 0) with height=14 and width=10
+Module 119 is placed at (6588, 0) with height=14 and width=10
+Module 120 is placed at (6578, 0) with height=14 and width=10
+Module 121 is placed at (6748, 0) with height=14 and width=10
+Module 122 is placed at (6558, 0) with height=14 and width=10
+Module 123 is placed at (6548, 0) with height=14 and width=10
+Module 124 is placed at (6538, 0) with height=14 and width=10
+Module 125 is placed at (6528, 0) with height=14 and width=10
+Module 126 is placed at (6518, 0) with height=14 and width=10
+Module 127 is placed at (6508, 0) with height=14 and width=10
+Module 128 is placed at (6498, 0) with height=14 and width=10
+Module 129 is placed at (6488, 0) with height=14 and width=10
+Module 130 is placed at (6478, 0) with height=14 and width=10
+Module 131 is placed at (6468, 0) with height=14 and width=10
+Module 132 is placed at (6458, 0) with height=14 and width=10
+Module 133 is placed at (6448, 0) with height=14 and width=10
+Module 134 is placed at (6438, 0) with height=14 and width=10
+Module 135 is placed at (6428, 0) with height=14 and width=10
+Module 136 is placed at (6418, 0) with height=14 and width=10
+Module 137 is placed at (224, 0) with height=14 and width=10
+Module 138 is placed at (6398, 0) with height=14 and width=10
+Module 139 is placed at (6388, 0) with height=14 and width=10
+Module 140 is placed at (6378, 0) with height=14 and width=10
+Module 141 is placed at (6368, 0) with height=14 and width=10
+Module 142 is placed at (6358, 0) with height=14 and width=10
+Module 143 is placed at (6348, 0) with height=14 and width=10
+Module 144 is placed at (0, 0) with height=14 and width=10
+Module 145 is placed at (6295, 0) with height=14 and width=10
+Module 146 is placed at (6285, 0) with height=14 and width=10
+Module 147 is placed at (6275, 0) with height=14 and width=10
+Module 148 is placed at (6265, 0) with height=14 and width=10
+Module 149 is placed at (6255, 0) with height=14 and width=10
+Module 150 is placed at (3630, 0) with height=14 and width=10
+Module 151 is placed at (6235, 0) with height=14 and width=10
+Module 152 is placed at (6225, 0) with height=14 and width=10
+Module 153 is placed at (6215, 0) with height=14 and width=10
+Module 154 is placed at (6205, 0) with height=14 and width=10
+Module 155 is placed at (6195, 0) with height=14 and width=10
+Module 156 is placed at (6185, 0) with height=14 and width=10
+Module 157 is placed at (6175, 0) with height=14 and width=10
+Module 158 is placed at (6165, 0) with height=14 and width=10
+Module 159 is placed at (6155, 0) with height=14 and width=10
+Module 160 is placed at (6145, 0) with height=14 and width=10
+Module 161 is placed at (6135, 0) with height=14 and width=10
+Module 162 is placed at (0, 925) with height=10 and width=14
+Module 163 is placed at (6125, 0) with height=14 and width=10
+Module 164 is placed at (6115, 0) with height=14 and width=10
+Module 165 is placed at (6105, 0) with height=14 and width=10
+Module 166 is placed at (7072, 0) with height=14 and width=10
+Module 167 is placed at (6085, 0) with height=14 and width=10
+Module 168 is placed at (6075, 0) with height=14 and width=10
+Module 169 is placed at (6065, 0) with height=14 and width=10
+Module 170 is placed at (6055, 0) with height=14 and width=10
+Module 171 is placed at (6045, 0) with height=14 and width=10
+Module 172 is placed at (6035, 0) with height=14 and width=10
+Module 173 is placed at (6025, 0) with height=14 and width=10
+Module 174 is placed at (6015, 0) with height=14 and width=10
+Module 175 is placed at (6005, 0) with height=14 and width=10
+Module 176 is placed at (5995, 0) with height=14 and width=10
+Module 177 is placed at (0, 911) with height=14 and width=10
+Module 178 is placed at (0, 897) with height=14 and width=10
+Module 179 is placed at (5985, 0) with height=14 and width=10
+Module 180 is placed at (906, 0) with height=14 and width=10
+Module 181 is placed at (5885, 0) with height=14 and width=10
+Module 182 is placed at (5875, 0) with height=14 and width=10
+Module 183 is placed at (5865, 0) with height=14 and width=10
+Module 184 is placed at (5855, 0) with height=14 and width=10
+Module 185 is placed at (1442, 0) with height=14 and width=10
+Module 186 is placed at (7605, 0) with height=14 and width=10
+Module 187 is placed at (384, 33) with height=14 and width=10
+Module 188 is placed at (374, 0) with height=14 and width=10
+Module 189 is placed at (364, 0) with height=14 and width=10
+Module 190 is placed at (354, 0) with height=14 and width=10
+Module 191 is placed at (344, 0) with height=14 and width=10
+Module 192 is placed at (334, 0) with height=14 and width=10
+Module 193 is placed at (324, 0) with height=14 and width=10
+Module 194 is placed at (314, 0) with height=14 and width=10
+Module 195 is placed at (304, 0) with height=14 and width=10
+Module 196 is placed at (294, 0) with height=14 and width=10
+Module 197 is placed at (284, 0) with height=14 and width=10
+Module 198 is placed at (274, 0) with height=14 and width=10
+Module 199 is placed at (264, 0) with height=14 and width=10
+Module 200 is placed at (254, 0) with height=14 and width=10
+Module 201 is placed at (244, 0) with height=14 and width=10
+Module 202 is placed at (234, 0) with height=14 and width=10
+Module 203 is placed at (6408, 0) with height=14 and width=10
+Module 204 is placed at (214, 0) with height=14 and width=10
+Module 205 is placed at (204, 0) with height=14 and width=10
+Module 206 is placed at (194, 0) with height=14 and width=10
+Module 207 is placed at (184, 0) with height=14 and width=10
+Module 208 is placed at (174, 0) with height=14 and width=10
+Module 209 is placed at (164, 0) with height=14 and width=10
+Module 210 is placed at (154, 0) with height=14 and width=10
+Module 211 is placed at (144, 0) with height=14 and width=10
+Module 212 is placed at (134, 0) with height=14 and width=10
+Module 213 is placed at (124, 0) with height=14 and width=10
+Module 214 is placed at (114, 0) with height=14 and width=10
+Module 215 is placed at (104, 0) with height=14 and width=10
+Module 216 is placed at (94, 0) with height=14 and width=10
+Module 217 is placed at (84, 0) with height=14 and width=10
+Module 218 is placed at (3940, 0) with height=14 and width=10
+Module 219 is placed at (10, 0) with height=14 and width=10
+Module 220 is placed at (6338, 0) with height=14 and width=10
+Module 221 is placed at (537, 0) with height=14 and width=10
+Module 222 is placed at (560, 774) with height=14 and width=10
+Module 223 is placed at (550, 774) with height=14 and width=10
+Module 224 is placed at (540, 774) with height=14 and width=10
+Module 225 is placed at (530, 774) with height=14 and width=10
+Module 226 is placed at (520, 774) with height=14 and width=10
+Module 227 is placed at (510, 774) with height=14 and width=10
+Module 228 is placed at (500, 774) with height=14 and width=10
+Module 229 is placed at (490, 774) with height=14 and width=10
+Module 230 is placed at (480, 774) with height=14 and width=10
+Module 231 is placed at (488, 33) with height=14 and width=10
+Module 232 is placed at (478, 33) with height=14 and width=10
+Module 233 is placed at (464, 33) with height=10 and width=14
+Module 234 is placed at (454, 33) with height=14 and width=10
+Module 235 is placed at (444, 33) with height=14 and width=10
+Module 236 is placed at (434, 33) with height=14 and width=10
+Module 237 is placed at (424, 33) with height=14 and width=10
+Module 238 is placed at (414, 33) with height=14 and width=10
+Module 239 is placed at (404, 33) with height=14 and width=10
+Module 240 is placed at (394, 33) with height=14 and width=10
+Module 241 is placed at (886, 0) with height=14 and width=10
+Module 242 is placed at (876, 0) with height=14 and width=10
+Module 243 is placed at (866, 0) with height=14 and width=10
+Module 244 is placed at (856, 0) with height=14 and width=10
+Module 245 is placed at (846, 0) with height=14 and width=10
+Module 246 is placed at (836, 0) with height=14 and width=10
+Module 247 is placed at (826, 0) with height=14 and width=10
+Module 248 is placed at (816, 0) with height=14 and width=10
+Module 249 is placed at (806, 0) with height=14 and width=10
+Module 250 is placed at (796, 0) with height=14 and width=10
+Module 251 is placed at (786, 0) with height=14 and width=10
+Module 252 is placed at (776, 0) with height=14 and width=10
+Module 253 is placed at (7122, 0) with height=14 and width=10
+Module 254 is placed at (756, 0) with height=14 and width=10
+Module 255 is placed at (746, 0) with height=14 and width=10
+Module 256 is placed at (2117, 0) with height=14 and width=10
+Module 257 is placed at (707, 0) with height=14 and width=10
+Module 258 is placed at (697, 0) with height=14 and width=10
+Module 259 is placed at (687, 0) with height=14 and width=10
+Module 260 is placed at (677, 0) with height=14 and width=10
+Module 261 is placed at (667, 0) with height=14 and width=10
+Module 262 is placed at (657, 0) with height=14 and width=10
+Module 263 is placed at (647, 0) with height=14 and width=10
+Module 264 is placed at (637, 0) with height=14 and width=10
+Module 265 is placed at (627, 0) with height=14 and width=10
+Module 266 is placed at (617, 0) with height=14 and width=10
+Module 267 is placed at (607, 0) with height=14 and width=10
+Module 268 is placed at (597, 0) with height=14 and width=10
+Module 269 is placed at (470, 774) with height=14 and width=10
+Module 270 is placed at (587, 0) with height=14 and width=10
+Module 271 is placed at (577, 0) with height=14 and width=10
+Module 272 is placed at (567, 0) with height=14 and width=10
+Module 273 is placed at (7575, 0) with height=14 and width=10
+Module 274 is placed at (547, 0) with height=14 and width=10
+Module 275 is placed at (570, 774) with height=14 and width=10
+Module 276 is placed at (527, 0) with height=14 and width=10
+Module 277 is placed at (517, 0) with height=14 and width=10
+Module 278 is placed at (507, 0) with height=14 and width=10
+Module 279 is placed at (497, 0) with height=14 and width=10
+Module 280 is placed at (487, 0) with height=14 and width=10
+Module 281 is placed at (477, 0) with height=14 and width=10
+Module 282 is placed at (467, 0) with height=14 and width=10
+Module 283 is placed at (457, 0) with height=14 and width=10
+Module 284 is placed at (447, 0) with height=14 and width=10
+Module 285 is placed at (437, 0) with height=14 and width=10
+Module 286 is placed at (427, 0) with height=14 and width=10
+Module 287 is placed at (417, 0) with height=14 and width=10
+Module 288 is placed at (5418, 774) with height=14 and width=10
+Module 289 is placed at (5408, 774) with height=14 and width=10
+Module 290 is placed at (5394, 774) with height=10 and width=14
+Module 291 is placed at (5384, 774) with height=14 and width=10
+Module 292 is placed at (5374, 774) with height=14 and width=10
+Module 293 is placed at (5364, 774) with height=14 and width=10
+Module 294 is placed at (5354, 774) with height=14 and width=10
+Module 295 is placed at (5344, 774) with height=14 and width=10
+Module 296 is placed at (5334, 774) with height=14 and width=10
+Module 297 is placed at (5324, 774) with height=14 and width=10
+Module 298 is placed at (5314, 774) with height=14 and width=10
+Module 299 is placed at (5304, 774) with height=14 and width=10
+Module 300 is placed at (5294, 774) with height=14 and width=10
+Module 301 is placed at (5284, 774) with height=14 and width=10
+Module 302 is placed at (5274, 774) with height=14 and width=10
+Module 303 is placed at (6928, 0) with height=14 and width=10
+Module 304 is placed at (3690, 0) with height=14 and width=10
+Module 305 is placed at (3680, 0) with height=14 and width=10
+Module 306 is placed at (3670, 0) with height=14 and width=10
+Module 307 is placed at (3660, 0) with height=14 and width=10
+Module 308 is placed at (3650, 0) with height=14 and width=10
+Module 309 is placed at (3640, 0) with height=14 and width=10
+Module 310 is placed at (6245, 0) with height=14 and width=10
+Module 311 is placed at (3620, 0) with height=14 and width=10
+Module 312 is placed at (3610, 0) with height=14 and width=10
+Module 313 is placed at (3596, 0) with height=10 and width=14
+Module 314 is placed at (3586, 0) with height=14 and width=10
+Module 315 is placed at (3576, 0) with height=14 and width=10
+Module 316 is placed at (3566, 0) with height=14 and width=10
+Module 317 is placed at (3556, 0) with height=14 and width=10
+Module 318 is placed at (3549, 0) with height=7 and width=7
+Module 319 is placed at (3542, 0) with height=7 and width=7
+Module 320 is placed at (7715, 0) with height=104 and width=44
+Module 321 is placed at (3501, 0) with height=92 and width=31
+Module 322 is placed at (3457, 0) with height=213 and width=44
+Module 323 is placed at (3413, 0) with height=213 and width=44
+Module 324 is placed at (3384, 0) with height=35 and width=29
+Module 325 is placed at (3342, 0) with height=760 and width=42
+Module 326 is placed at (3313, 0) with height=35 and width=29
+Module 327 is placed at (3271, 0) with height=760 and width=42
+Module 328 is placed at (3242, 0) with height=35 and width=29
+Module 329 is placed at (2482, 0) with height=42 and width=760
+Module 330 is placed at (2453, 0) with height=35 and width=29
+Module 331 is placed at (2411, 0) with height=760 and width=42
+Module 332 is placed at (2382, 0) with height=35 and width=29
+Module 333 is placed at (2340, 0) with height=760 and width=42
+Module 334 is placed at (2311, 0) with height=35 and width=29
+Module 335 is placed at (2240, 0) with height=81 and width=71
+Module 336 is placed at (2198, 0) with height=760 and width=42
+Module 337 is placed at (2169, 0) with height=36 and width=29
+Module 338 is placed at (2127, 0) with height=760 and width=42
+Module 339 is placed at (717, 0) with height=35 and width=29
+Module 340 is placed at (2075, 0) with height=760 and width=42
+Module 341 is placed at (2046, 0) with height=36 and width=29
+Module 342 is placed at (2001, 0) with height=774 and width=45
+Module 343 is placed at (1972, 0) with height=34 and width=29
+Module 344 is placed at (1901, 0) with height=81 and width=71
+Module 345 is placed at (1856, 0) with height=774 and width=45
+Module 346 is placed at (1812, 0) with height=92 and width=44
+Module 347 is placed at (1779, 0) with height=33 and width=33
+Module 348 is placed at (1715, 0) with height=67 and width=64
+Module 349 is placed at (1485, 0) with height=90 and width=230
+Module 350 is placed at (1452, 0) with height=33 and width=33
+Module 351 is placed at (5625, 0) with height=90 and width=230
+Module 352 is placed at (5592, 0) with height=33 and width=33
+Module 353 is placed at (5362, 0) with height=89 and width=230
+Module 354 is placed at (5329, 0) with height=33 and width=33
+Module 355 is placed at (5099, 0) with height=90 and width=230
+Module 356 is placed at (5066, 0) with height=33 and width=33
+Module 357 is placed at (5002, 0) with height=67 and width=64
+Module 358 is placed at (4772, 0) with height=89 and width=230
+Module 359 is placed at (4739, 0) with height=33 and width=33
+Module 360 is placed at (4509, 0) with height=90 and width=230
+Module 361 is placed at (4476, 0) with height=33 and width=33
+Module 362 is placed at (4246, 0) with height=90 and width=230
+Module 363 is placed at (4213, 0) with height=33 and width=33
+Module 364 is placed at (3983, 0) with height=90 and width=230
+Module 365 is placed at (3950, 0) with height=33 and width=33
+Module 366 is placed at (20, 0) with height=66 and width=64
+Module 367 is placed at (3710, 0) with height=90 and width=230
+Module 368 is placed at (5241, 774) with height=32 and width=33
+Module 369 is placed at (1212, 0) with height=90 and width=230
+Module 370 is placed at (1179, 0) with height=32 and width=33
+Module 371 is placed at (949, 0) with height=90 and width=230
+Module 372 is placed at (916, 0) with height=33 and width=33
+Module 373 is placed at (5755, 774) with height=90 and width=230
+Module 374 is placed at (5722, 774) with height=33 and width=33
+Module 375 is placed at (5658, 774) with height=66 and width=64
+Module 376 is placed at (5428, 774) with height=90 and width=230
+Module 377 is placed at (384, 0) with height=33 and width=33
+Module 378 is placed at (5011, 774) with height=90 and width=230
+Module 379 is placed at (4978, 774) with height=33 and width=33
+Module 380 is placed at (4748, 774) with height=90 and width=230
+Module 381 is placed at (4715, 774) with height=33 and width=33
+Module 382 is placed at (4485, 774) with height=90 and width=230
+Module 383 is placed at (4452, 774) with height=33 and width=33
+Module 384 is placed at (4388, 774) with height=66 and width=64
+Module 385 is placed at (4158, 774) with height=90 and width=230
+Module 386 is placed at (4125, 774) with height=33 and width=33
+Module 387 is placed at (3895, 774) with height=90 and width=230
+Module 388 is placed at (3862, 774) with height=33 and width=33
+Module 389 is placed at (3632, 774) with height=90 and width=230
+Module 390 is placed at (3599, 774) with height=33 and width=33
+Module 391 is placed at (3369, 774) with height=90 and width=230
+Module 392 is placed at (0, 864) with height=33 and width=33
+Module 393 is placed at (3305, 774) with height=66 and width=64
+Module 394 is placed at (3075, 774) with height=90 and width=230
+Module 395 is placed at (3042, 774) with height=33 and width=33
+Module 396 is placed at (2812, 774) with height=90 and width=230
+Module 397 is placed at (2779, 774) with height=33 and width=33
+Module 398 is placed at (2549, 774) with height=90 and width=230
+Module 399 is placed at (2516, 774) with height=33 and width=33
+Module 400 is placed at (2286, 774) with height=90 and width=230
+Module 401 is placed at (2253, 774) with height=33 and width=33
+Module 402 is placed at (2189, 774) with height=66 and width=64
+Module 403 is placed at (1959, 774) with height=90 and width=230
+Module 404 is placed at (1926, 774) with height=33 and width=33
+Module 405 is placed at (1696, 774) with height=90 and width=230
+Module 406 is placed at (1663, 774) with height=33 and width=33
+Module 407 is placed at (1433, 774) with height=90 and width=230
+Module 408 is placed at (1400, 774) with height=33 and width=33
+Module 409 is placed at (1170, 774) with height=90 and width=230
+Module 410 is placed at (1137, 774) with height=33 and width=33
+Module 411 is placed at (1073, 774) with height=66 and width=64
+Module 412 is placed at (843, 774) with height=90 and width=230
+Module 413 is placed at (810, 774) with height=33 and width=33
+Module 414 is placed at (580, 774) with height=90 and width=230
+Module 415 is placed at (6305, 0) with height=33 and width=33
+Module 416 is placed at (240, 774) with height=90 and width=230
+Module 417 is placed at (7312, 0) with height=33 and width=33
+Module 418 is placed at (0, 774) with height=90 and width=230
+Packing area = 7.51814e+06 (has overlapped? 0 (1:yes, 0:no))
+Draw floorplan to circuit5.png
+********************************** END ***********************************
+
+****************************** VERIFICATION ******************************
+Circuit: 419 golden_modules, slicing tree size = 419 leaves and 418 internals
+(1) Function  'init_slicing_tree': correct!   +25
+(2) Function  'is_leaf'          : correct!   +5
+(3) Function  'is_internal'      : correct!   +5
+(4) Function  'is_in_subtree'    : correct!   +10
+(5) Procedure 'rotate'           : correct!   +5
+(6) Procedure 'recut'            : correct!   +5
+(7) Procedure 'swap_module'      : correct!   +5
+(8) Procedure 'swap_topology'    : correct!   +10
+(9) Procedure 'get_expression'   : correct!   +20
+Challenge bonus on area diff 1.01882e+07 vs 1.01882e+07: +0
+Your final score for this MP     : 90
+**************************** END VERIFICATION ****************************
+

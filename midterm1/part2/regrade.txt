@@ -1,0 +1,31 @@
+;NOTE: REGRADE REQUEST
+; everything on  this part 2 received full credit, except for implementation of RNG.
+; previously, I had written a very detailed algorithm, but couldn't implement it out
+; due to lack of time. (debugging pt 1 too long). I have implemented it  now, within a 
+; very short period of time. the program is working as intended. please! I need those
+; points back..
+	
+;FROM HERE, 11 LINES OF INSTRUCTIONS WERE ADDED! Sorry I already committed to the orig file..
+
+	ST R7, RNG_SaveR7 ; save R7
+	ST R5, RNG_SaveR5 ; save ptr to mmr
+	ADD R6, R4, #1	  ; R6 = N+1
+
+;loop through N times
+RNG_LOOP	
+	ADD R6, R6, #-1 ; loop N times
+	BRz RNG_DONE
+	JSR LCG
+	STR R3, R5, #0 ; store Xn into mmr
+	ADD R5, R5, #1 ; increment mmr ptr
+	BR RNG_LOOP
+RNG_DONE
+	LD R7, RNG_SaveR7 ;
+	LD R5, RNG_SaveR5
+    RET
+
+RNG_SaveR7 .BLKW #1 ;
+RNG_SaveR5 .BLKW #1 ; 
+
+
+REGRADE: Unfortunatelly, I cannot regrade this. 

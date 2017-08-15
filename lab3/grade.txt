@@ -1,0 +1,8 @@
+
++1 code is submitted and assembles (1pt)
++1 code prints and stores to memory (1pt)
++1 both console output and memory contents are correct (1pt)
+
+Total:  3
+
+Spaces should not be stored into the memory

@@ -1,0 +1,24 @@
+
+INPUT:     10/10
+DECODE:    10/10
+PRINT:     10/10
+EVALUATE:  15/50
+PLUS:      1/1
+MINUS:     2/2
+MULTIPLY:  3/3
+DIVIDE:    4/4
+
+Functionality total: 55/90
+
+
+Style: 5/5
+Comments, Formatting, Intro Paragraph: 5/5
+
+
+multiple digit operands:  0/15
+invalid input:            0/5
+
+Challenge total:          0/20
+
+
+Total:  65

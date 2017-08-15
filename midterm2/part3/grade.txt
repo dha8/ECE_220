@@ -1,0 +1,8 @@
+part3.c: In function ‘FastExp’:
+part3.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+missing return statement: -2pts
+
+Total: 18

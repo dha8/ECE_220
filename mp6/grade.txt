@@ -1,0 +1,23 @@
+findStart: 10/10
+printMaze: 10/10
+
+solveMazeDFS: 50/50
+
+checkMaze: 20/20
+
+solveMazeBFS: 0/30
+  -test case 1 failed
+  -test case 2 failed
+  -test case 3 failed
+ 
+Functionality: 90/90
+ 
+Challenge: 0/30
+ 
+Style, comments: 10/10
+
+Worked alone: 5/5
+
+NOTE: Format output correctly. Extra newline at the start of printing maze should NOT be there.
+
+Total: 105

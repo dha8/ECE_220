@@ -1,0 +1,35 @@
+main.c: In function ‘main’:
+main.c:55:9: error: ‘for’ loop initial declarations are only allowed in C99 mode
+         for(int i=-1;i<N;i++){ 
+         ^
+main.c:55:9: note: use option -std=c99 or -std=gnu99 to compile your code
+main.c:19:35: warning: unused variable ‘Voutprev’ [-Wunused-variable]
+  double Voutnew = 0, Voutcur = 0, Voutprev = 0;
+                                   ^
+main.c:19:22: warning: unused variable ‘Voutcur’ [-Wunused-variable]
+  double Voutnew = 0, Voutcur = 0, Voutprev = 0;
+                      ^
+main.c:19:9: warning: unused variable ‘Voutnew’ [-Wunused-variable]
+  double Voutnew = 0, Voutcur = 0, Voutprev = 0;
+         ^
+main.c:18:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+
+Test one:
+Total error is 0.000000 percent.
+
+Test two:
+Total error is 0.000000 percent.
+
+Test three:
+Total error is 0.000000 percent.
+
+Test one-rk:
+Total error is -nan percent.
+
+Test two-rk:
+Total error is -nan percent.
+
+Test three-rk:
+Total error is -nan percent.

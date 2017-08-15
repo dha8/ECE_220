@@ -1,0 +1,6 @@
+g++ -g -Wall -m32 -include stdlib.h -c main.c
+g++ -g -Wall -m32 -include stdlib.h -c lodepng.c
+g++ -g -Wall -m32 -include stdlib.h -c imageData.c
+g++ -g -Wall -m32 -include stdlib.h -c functions.c
+g++ -g -Wall -m32 -include stdlib.h main.o lodepng.o imageData.o functions.o -o mp5
+g++ -g -Wall -m32 -include stdlib.h test.o lodepng.o imageData.o functions.o solution.o -o test

@@ -1,0 +1,6 @@
+
++1 code is submitted and assembles (1pt)
++1 code prints (1pt)
++1 output is correct (1pt)
+
+Total:  3

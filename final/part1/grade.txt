@@ -1,0 +1,13 @@
+G1:int_count=0: 1/1
+G2:R0<-(nd->value): 1/1
+G3:R1<-parent_value: 2/2
+G4:count=1: 2/2
+G5:push(nd->value): 2/2
+G6:push(nd->left): 3/3
+G7:count+=ret.val: 1/2
+- incorrect ret.val
+G8:push(nd->value): 2/2
+G9:push(nd->right): 3/3
+G10:count+=ret.val: 1/2
+- incorrect ret.val
+Total: 18/20

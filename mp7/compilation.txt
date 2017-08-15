@@ -1,0 +1,4 @@
+g++ -Wall -O3 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -c tLib_graphics.cpp -o tLib_graphics.o -lcairo
+g++ -Wall -O3 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -c floorplan.c -o floorplan.o  -lcairo
+g++ -Wall -O3 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -c main.c -o main.o -lcairo
+g++ -Wall -O3 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 tLib_graphics.o floorplan.o main.o -lcairo -L./lib -ltest64   -o floorplanner 

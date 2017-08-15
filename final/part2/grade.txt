@@ -1,0 +1,16 @@
+circle(float cx, float cy, float r)  1/1
+circle(const circle& c)  0/4
+- not implemented
+void setX(float )  1/1
+void setY(float )  1/1
+void setRadius(float )  1/1
+float getX()  1/1
+float getY()  1/1
+float getRadius()  1/1
+computeArea()  3/3
+computePerimeter()  3/3
+circle operator* (float scaler)  4/4
+bool operator> (const circle& b)  4/4
+extra:  2/2
+
+Total: 23

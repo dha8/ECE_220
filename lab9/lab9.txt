@@ -1,0 +1,50 @@
+Answer the following questions:
+
+
+1. What is output from igcc? What is the initial value in the pointer? Will this always be the case? Hint think about what is stored in a variable that is not initialized.
+-the output is the memory address pointed by ipoint; the initial value
+(value dereferenced by the ptr) holds junk value. This junk may or may not
+be the same value depending on what took place in the memory beforehand.
+
+2. What does the * operator do at this point in the code? What happened? Why?
+-the * operator dereferences the pointer, meaning that it gets the actual
+value stored at the memory pointed by the pointer. As expected, it held
+the junk value.
+
+3. What is the output when running the following commands?
+5, 15, 5 respectively.
+
+4. What happens when running the above code? Why? How did you fix the code?
+The code prints out the memory address pointed by ipoint(base addr of iray, and
+incrementing by 1) until it modifies unintentional memory(since forloop goes
+from 1 to 100, index out of bounds) on the runtime stack. Consequently, it 
+results in segfault, which haults the code.
+
+segfault can be prevented by changing the boundary of the for loop to only point
+upto the size of the array.
+
+
+5. What is ipoint incremented by each time the statement ipoint = ipoint + 1 is run when the array is of type double. Why? Notice that the output from the array starts with zero. Why?
+-the pointer is incremented by 8 bytes(on a 64 bit computer) because each double
+takes 8 bytes. the output from the array starts with 0 because the loop starts
+from 0, and we started the for loop from 0, which is stored into the zeroth
+index.
+
+6. How does passing the arrays to a function using pointers affect the data as the array is being passed to the function? Hint: what happens if the array is changed in the function?
+-passing the arrays to a function is essentially passing in the pointer to the
+base addr of the arrays. passing in the pointer is also passing in the base
+addr of the array. If the data is changed within the function, it is also changed outside of the function as the accessing of elements of array is done through pointers. (even in regular array syntax using brackets, since it is just syntactic sugar for pointer arithmetic.)
+
+
+7. Why is there a problem with the previous code snippet? Which line gives the error? Why?
+the previous code snippet returns an error at the last line, because you're
+assigning the memory address of the pointer(not the address pointed by the 
+pointer) to another pointer, making a double pointer.
+
+
+8. Why is there a problem with that assignment? Why does the last assignment fail?
+p5 = &b gives an error because p5 is a pointer to a 5-element array, and the
+code tries to assign a 10-element array to a pointer to a 5-element array.
+p5 allocated enough space to hold addr to 5-elem array, not 10-elem array.
+
+

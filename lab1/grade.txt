@@ -1,0 +1,13 @@
+lc3as output:
+STARTING PASS 1
+0 errors found in first pass.
+STARTING PASS 2
+0 errors found in second pass.
+
+factorial: 10/10
+register_initialization: 0/3
+Functionality: 10/13
+
+aboutme.txt: 2/2
+
+Total: 12/15

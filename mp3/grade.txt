@@ -1,0 +1,31 @@
+main.c: In function ‘main’:
+main.c:55:9: error: ‘for’ loop initial declarations are only allowed in C99 mode
+         for(int i=-1;i<N;i++){ 
+         ^
+main.c:55:9: note: use option -std=c99 or -std=gnu99 to compile your code
+main.c:19:35: warning: unused variable ‘Voutprev’ [-Wunused-variable]
+  double Voutnew = 0, Voutcur = 0, Voutprev = 0;
+                                   ^
+main.c:19:22: warning: unused variable ‘Voutcur’ [-Wunused-variable]
+  double Voutnew = 0, Voutcur = 0, Voutprev = 0;
+                      ^
+main.c:19:9: warning: unused variable ‘Voutnew’ [-Wunused-variable]
+  double Voutnew = 0, Voutcur = 0, Voutprev = 0;
+         ^
+main.c:18:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+
+Functionality:  90/90
+
+Style:  5/5
+Comments, Formatting, Intro Paragraph:  5/5
+
+Runge-Kutta method:  0/15
+Using functions:  3/5
+In order to get 5 points for the Using functions challenge, your main function should only collect user input and call other function(s) to perform actual calculations.
+
+Challenge total:  3/20
+
+
+Total:  103

@@ -1,0 +1,15 @@
+
++1 code is submitted and assembles (1pt)
++1 code prints (1pt)
++1 output is correct (1pt)
+
+Total:  3
+
+New variables must be declared outside of for loop!!!
+
+[naiyinj2@eceb-2022-10 lab5]$ gcc -Wall lab5.c -o lab5 -lm
+lab5.c: In function ‘main’:
+lab5.c:19:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for(int i=0;i<n;++i){
+  ^
+lab5.c:19:2: note: use option -std=c99 or -std=gnu99 to compile your code

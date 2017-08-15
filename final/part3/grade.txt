@@ -1,0 +1,9 @@
+gcc -g -Wall -Werror -ansi main.c llist.c -o llist
+
+
+get_node_count: 10
+
+
+remove_negative_nodes: 15
+
+Total:  25

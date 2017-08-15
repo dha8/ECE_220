@@ -1,0 +1,10 @@
+main_a: 1/1
+main_b: 1/1
+main_c: 1/1
+main_push_args_for_myf: 0/2
+myf_bookkeeping_R7: 1/1
+myf_bookkeeping_R5: 1/1
+myf_bookkeeping_retval: 1/1
+main_R5_at_the_end: 1/1
+main_R6_at_the_end: 1/1
+Total: 8/10

@@ -1,0 +1,13 @@
+Hi,
+
+I think I did not receive points for the following criteria:
+
+	-IS_VALID uses stack subroutines PUSH and POP and implements the above algorithm
+	-On exit, IS_VALID returns result in R0
+
+I have used PUSH and POP, just not getting the correct output.. so out of 35 points, maybe I could get just a bit back. 
+Also, I believe that my code does return result in R0; it was just that my calculation of R0 was bugged.
+
+thanks for all your hard work!
+
+

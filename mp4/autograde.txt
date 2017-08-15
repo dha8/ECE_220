@@ -1,0 +1,8 @@
+dealloc_stack: 10/10
+foo1_bookkeeping: 5/5
+foo1_push_arg_for_foo2: 10/10
+foo1_collect_result: 5/5
+foo1_return_total: 5/5
+correct_access: 10/10
+foo2_bookkeeping: 5/5
+Total: 50/50

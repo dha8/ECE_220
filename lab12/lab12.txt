@@ -1,0 +1,41 @@
+
+1. Provide C code to declare a variable "s" which is an array of 4 structures with members "int" and "double".
+
+struct a{int n; double d} s[4];
+
+2. Declare the same variable "s" (an array of 4 structures with members "int" and "double"), this time using a custom type to identify the structure.
+
+typedef struct{int n;double d} intDoubleArr[4];
+intDoubleArr s;
+
+3. What does the type of "a" change to when it's used in expression 1?
+a returns the base addr of the array, in hexadecimal
+
+4. What is the result of all four expressions? Why?
+they all return 4 and this makes sense, since the base_pointer returns the
+base addr and whatever's added through pointer arithmetic moves the pointer
+to the next slots.
+
+5. You have a variable with type "int" that you want to pass to a function, but the parameter has type "int *". How do you pass it? What if the parameter has type "int **"?
+since the parameter expects a pointer(addr), you must put a reference sign
+(&) at the front of the stack variable you're passing in. if parameter has
+type int**, then && at the front of the variable.
+
+6. Suppose you have a variable called "vector_array" which is an array of this "vector" type. Write a C expression to access the y component of element 4 of the array (element 0 is the first).
+vector_array[4].y
+
+7. If we have a variable "cur_ball" which is a pointer to a "ball", how would we access the x velocity of the ball? What if we had an array of "ball" called "balls" and wanted to access the y position of ball 0?
+cur_ball->position.x
+balls[0].position.y
+
+8. Explain why "&array[3]" and "array + 3" are equivalent.
+because &(array[3]) returns the addr of the 4th element, and 
+array+3 returns base addr(at 0th elem) incremented by 3, aka 4th elem addr.
+
+9. Explain why this trick works.
+This trick works because sizeof(array) is calculated by the size of individual
+element multiplied by the length of the array. by dividing the size of the
+entire array by size of the indivdual element, this obviously will return
+the length of the array.
+
+

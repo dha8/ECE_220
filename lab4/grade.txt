@@ -1,0 +1,6 @@
+
++ code is submitted and assembles (1pt)
++ code prints (1pt)
+0 output is correct (1pt)
+
+Total: 2 

@@ -1,0 +1,25 @@
+Code assembles, runs, and halts:  5/5
+
+Main program contains a proper call to IS_VALID:  5/5
+
+All registers that are modified by IS_VALID are restored to their original values on return:  5/5
+
+All registers are properly initialized: 5/5
+
+IS_VALID acquires input string from the keyboard until user hits ENTER key:  10/10
+
+IS_VALID reads characters from the keyboard without using any TRAPs:  10/10
+
+IS_VALID echoes input characters to the display without using any TRAPs:  10/10
+
+IS_VALID uses stack subroutines PUSH and POP and implements the required algorithm: 0/35
++ uses PUSH and POP: +10pts
+
+On exit, IS_VALID returns result in R0:  0/5
+- regraded: +5pts
+
+Code uses as few as possible iterative and conditional constructs:  5/5
+
+Subroutine is well-documented (description of functionality, register table, comments, proper source code formatting, etc.): 5/5
+
+Total: 75  
